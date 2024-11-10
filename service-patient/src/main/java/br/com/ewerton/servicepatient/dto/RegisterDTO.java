@@ -1,8 +1,6 @@
 package br.com.ewerton.servicepatient.dto;
 
-import br.com.ewerton.servicepatient.model.PatientRole;
-
-public record RegisterDTO(String email, String password, PatientRole role) {
+public record RegisterDTO(String email, String password, String role) {
 
     @Override
     public String email() {
@@ -15,7 +13,7 @@ public record RegisterDTO(String email, String password, PatientRole role) {
     }
 
     @Override
-    public PatientRole role() {
+    public String role() {
         return role;
     }
 }

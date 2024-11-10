@@ -1,8 +1,7 @@
 package br.com.ewerton.servicepatient.controller;
 
-import br.com.ewerton.servicepatient.configuration.security.TokenService;
+import br.com.ewerton.servicepatient.controller.security.TokenService;
 import br.com.ewerton.servicepatient.dto.AuthenticationDTO;
-import br.com.ewerton.servicepatient.dto.EmailLoginDTO;
 import br.com.ewerton.servicepatient.dto.EmailResponseDTO;
 import br.com.ewerton.servicepatient.dto.RegisterDTO;
 import br.com.ewerton.servicepatient.model.PatientModel;

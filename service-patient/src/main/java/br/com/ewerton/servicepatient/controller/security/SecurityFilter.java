@@ -1,4 +1,4 @@
-package br.com.ewerton.servicepatient.configuration.security;
+package br.com.ewerton.servicepatient.controller.security;
 
 import br.com.ewerton.servicepatient.repository.PatientRepository;
 import jakarta.servlet.FilterChain;

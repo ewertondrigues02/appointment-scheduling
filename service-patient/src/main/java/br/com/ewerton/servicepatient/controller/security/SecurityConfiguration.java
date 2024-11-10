@@ -1,4 +1,4 @@
-package br.com.ewerton.servicepatient.configuration.security;
+package br.com.ewerton.servicepatient.controller.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

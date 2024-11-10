@@ -60,6 +60,9 @@ public class PatientModel implements UserDetails {
         this.email = email;
     }
 
+    public PatientModel(String mail, String encryptedPassword, String roleUser) {
+    }
+
     public UUID getId() {
         return id;
     }
